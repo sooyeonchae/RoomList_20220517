@@ -14,6 +14,16 @@
         android:theme="@style/Theme.RoomList_20220517"
         tools:targetApi="31">
         <activity
+            android:name=".SplashActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".ViewRoomActivity"
             android:exported="false" />
         <activity
